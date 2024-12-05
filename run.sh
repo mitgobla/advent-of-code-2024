@@ -19,7 +19,7 @@ fi
 
 # Compile the TypeScript file
 echo "Compiling TypeScript..."
-npx tsc "$1"
+npx tsc --project tsconfig.json
 if [ $? -ne 0 ]; then
   echo "TypeScript compilation failed."
   exit 1
