@@ -1,0 +1,1 @@
+Part 2 is the same as part 1, except const steps = 25; is changed to const steps = 75;
